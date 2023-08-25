@@ -96,9 +96,6 @@ class CustomPrinterBlePlugin: FlutterPlugin, MethodCallHandler{
       return;
     }else if (call.method == "getPlatformVersion") {
       result.success("Android $androidVersion")
-      } else {
-        result.error("UNAVAILABLE", "Battery level not available.", null)
-      }
     }else if (call.method == "bluetoothenabled") {
       var state:Boolean = false
       val bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
