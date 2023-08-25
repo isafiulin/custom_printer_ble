@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "app.web.groons" "\0"
-            VALUE "FileDescription", "print_bluetooth_thermal_example" "\0"
+            VALUE "CompanyName", "kg.ronin.app" "\0"
+            VALUE "FileDescription", "custom_printer_ble_example" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "print_bluetooth_thermal_example" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 app.web.groons. All rights reserved." "\0"
-            VALUE "OriginalFilename", "print_bluetooth_thermal_example.exe" "\0"
-            VALUE "ProductName", "print_bluetooth_thermal_example" "\0"
+            VALUE "InternalName", "custom_printer_ble_example" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 kg.ronin.app. All rights reserved." "\0"
+            VALUE "OriginalFilename", "custom_printer_ble_example.exe" "\0"
+            VALUE "ProductName", "custom_printer_ble_example" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

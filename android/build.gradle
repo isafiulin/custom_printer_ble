@@ -1,4 +1,4 @@
-group 'app.web.groons.print_bluetooth_thermal'
+group 'kg.ronin.app.custom_printer_ble'
 version '1.0-SNAPSHOT'
 
 buildscript {

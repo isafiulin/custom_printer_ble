@@ -1,23 +1,25 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart';
+import 'package:custom_printer_ble/custom_printer_ble.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('print_bluetooth_thermal');
+  const MethodChannel channel = MethodChannel('kg.ronin.app/print');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
   setUp(() {
-    channel.setMockMethodCallHandler((MethodCall methodCall) async {
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMethodCallHandler(channel, (MethodCall methodCall) async {
       return '42';
     });
   });
 
   tearDown(() {
-    channel.setMockMethodCallHandler(null);
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMethodCallHandler(channel, null);
   });
 
   test('getPlatformVersion', () async {
-    expect(await PrintBluetoothThermal.platformVersion, '42');
+    expect(await CustomPrinterBle.platformVersion, '42');
   });
 }

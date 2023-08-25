@@ -1,4 +1,4 @@
-# print_bluetooth_thermal
+# custom_printer_ble
 
 ## Package to print tickets on 58mm or 80mm thermal printers on Android or IOS.
 
@@ -9,9 +9,8 @@ blocks apps that don't explain what to use location permission for.
 
 ## Getting Started
 
-* Import the package  [print_bluetooth_thermal](https://pub.dev/packages/print_bluetooth_thermal).
+* Import the package  [custom_printer_ble](link).
 
-* If you want to print images, qr code, barcode use the package [esc_pos_utils_plus](https://pub.dev/packages/esc_pos_utils_plus).
 
 #Configure in IOS
 > In Info.plist add line in folder/ios/runner/info.plist
@@ -22,9 +21,6 @@ blocks apps that don't explain what to use location permission for.
 
 1. Import the package
 
-```dart
-import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart';
-```
 
 
 2. After that you can use 
@@ -201,14 +197,11 @@ Future<List<int>> testTicket() async {
 }
 ```
 
-# Screenshot of the example app, you can copy the code from the example
-![App example Android](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/myapp.jpeg)
-![App example IOS](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print_iphone.jpg)
 # Ticket printed with various sizes
 ![Print sizes](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/size.jpeg)
 # Ticket printed with various forms
-![Use package print_bluetooth_thermal 58 mm](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print.jpeg)
-![Use package print_bluetooth_thermal 80 mm](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print80mm.jpg)
+![Use package custom_printer_ble 58 mm](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print.jpeg)
+![Use package custom_printer_ble 80 mm](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print80mm.jpg)
 
 
 # Built with 🛠️
@@ -220,8 +213,6 @@ _Thanks to these tools this fabulous project has been created_
 * [Swift](https://www.swift.com/) - language used
 * [Flutter](https://flutter.dev/) - framework used
 
-# Donate
-[![Donate](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/Donate_PayPal.png)](https://www.paypal.com/donate/?hosted_button_id=8UMQ755US94XL)
 
 # License
 Note: This license has also been called the "New BSD License" or "Modified BSD License". See also the 2-clause BSD License.
@@ -239,9 +230,6 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 <br/>
-
-Created with ❤️ by [andresperezmelo](https://github.com/andresperezmelo) 😊
-[Andres Perez Melo](https://www.linkedin.com/in/andr%C3%A9s-p%C3%A9rez-melo-756413218/)
 
 
 

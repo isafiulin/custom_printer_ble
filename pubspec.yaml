@@ -1,6 +1,6 @@
-name: print_bluetooth_thermal
+name: custom_printer_ble
 description: Ticket printing for android, location permission is not requested to connect the printer 
-version: 1.0.9
+version: 1.0.0
 homepage: https://github.com/andresperezmelo/print_bluetooth_termal
 
 environment:
@@ -27,7 +27,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: app.web.groons.print_bluetooth_thermal
+        package: kg.ronin.app.custom_printer_ble
         pluginClass: PrintBluetoothThermalPlugin
       ios:
         pluginClass: PrintBluetoothThermalPlugin

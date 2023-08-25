@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/print_bluetooth_thermal.iml" filepath="$PROJECT_DIR$/print_bluetooth_thermal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/print_bluetooth_thermal_android.iml" filepath="$PROJECT_DIR$/android/print_bluetooth_thermal_android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/android/print_bluetooth_thermal_example_android.iml" filepath="$PROJECT_DIR$/example/android/print_bluetooth_thermal_example_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_printer_ble.iml" filepath="$PROJECT_DIR$/custom_printer_ble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/custom_printer_ble_android.iml" filepath="$PROJECT_DIR$/android/custom_printer_ble_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/custom_printer_ble_example_android.iml" filepath="$PROJECT_DIR$/example/android/custom_printer_ble_example_android.iml" />
     </modules>
   </component>
 </project>

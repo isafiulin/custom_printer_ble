@@ -68,7 +68,7 @@ cambio del contexto para no causar conflictos con otros paquetes
 
 ## [0.0.2]
 
-# print_bluetooth_thermal
+# custom_printer_ble
 
 Se cambio de dart a pluning
 

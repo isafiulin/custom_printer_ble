@@ -1,4 +1,4 @@
-package app.web.groons.print_bluetooth_thermal_example
+package kg.ronin.app.custom_printer_ble_example
 
 import io.flutter.embedding.android.FlutterActivity
 

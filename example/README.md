@@ -1,4 +1,4 @@
-# print_bluetooth_thermal
+# custom_printer_ble
 
 Paquete para imprimir tickets en impresoras termicas de 58 mm en Android.
 Este paquete surgio como alternativa a los actuales que usan el permiso de ubicacion y Google Play
@@ -10,14 +10,14 @@ bloquea las aplicaciones que no explican para que usan el permiso de ubicacion.
 
 Como usuarlo?
 
-*Importe el paquete `print_bluetooth_thermal`
+*Importe el paquete `custom_printer_ble`
 
 *Importe dos paquetes mas
 
 1. [esc_pos_utils](https://pub.dev/packages/esc_pos_utils) paquete para imprimir recibos `import package:esc_pos_utils/esc_pos_utils.dart'`
 2. [Image](https://pub.dev/packages/image) //para imprimir las imagenes `import 'package:image/image.dart' as Imagen`
 
-*Llame al paquete  `import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart' as printBluetooth;`
+*Llame al paquete  `import 'package:custom_printer_ble/custom_printer_ble.dart' as printBluetooth;`
 
 Despues de eso puede usar **printBluetooth**
 Las funciones son:

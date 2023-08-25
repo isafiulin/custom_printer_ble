@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/print_bluetooth_thermal.iml" filepath="$PROJECT_DIR$/.idea/modules/print_bluetooth_thermal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom_printer_ble.iml" filepath="$PROJECT_DIR$/.idea/modules/custom_printer_ble.iml" />
     </modules>
   </component>
 </project>
