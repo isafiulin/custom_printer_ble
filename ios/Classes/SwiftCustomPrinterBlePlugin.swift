@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 import CoreBluetooth
 
-public class SwiftPrintBluetoothThermalPlugin: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate,  FlutterPlugin {
+public class SwiftCustomPrinterBlePlugin: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate,  FlutterPlugin {
 
     var centralManager: CBCentralManager?  // Define una variable para guardar el gestor central de bluetooth
     var discoveredDevices: [String] = []  //lista de bluetooths encontrados
@@ -25,7 +25,7 @@ public class SwiftPrintBluetoothThermalPlugin: NSObject, CBCentralManagerDelegat
 
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "kg.ronin.app/print", binaryMessenger: registrar.messenger())
-    let instance = SwiftPrintBluetoothThermalPlugin()
+    let instance = SwiftCustomPrinterBlePlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

@@ -1,4 +1,4 @@
-#import "PrintBluetoothThermalPlugin.h"
+#import "CustomPrinterBlePlugin.h"
 #if __has_include(<custom_printer_ble/custom_printer_ble-Swift.h>)
 #import <custom_printer_ble/custom_printer_ble-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "custom_printer_ble-Swift.h"
 #endif
 
-@implementation PrintBluetoothThermalPlugin
+@implementation CustomPrinterBlePlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftPrintBluetoothThermalPlugin registerWithRegistrar:registrar];
+  [SwiftCustomPrinterBlePlugin registerWithRegistrar:registrar];
 }
 @end

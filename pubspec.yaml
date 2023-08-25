@@ -28,9 +28,9 @@ flutter:
     platforms:
       android:
         package: kg.ronin.app.custom_printer_ble
-        pluginClass: PrintBluetoothThermalPlugin
+        pluginClass: CustomPrinterBlePlugin
       ios:
-        pluginClass: PrintBluetoothThermalPlugin
+        pluginClass: CustomPrinterBlePlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

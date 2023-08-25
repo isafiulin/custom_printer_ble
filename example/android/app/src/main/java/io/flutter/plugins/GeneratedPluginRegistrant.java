@@ -16,9 +16,9 @@ public final class GeneratedPluginRegistrant {
   private static final String TAG = "GeneratedPluginRegistrant";
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
     try {
-      flutterEngine.getPlugins().add(new app.web.groons.print_bluetooth_thermal.PrintBluetoothThermalPlugin());
+      flutterEngine.getPlugins().add(new kg.ronin.app.custom_printer_ble.CustomPrinterBlePlugin());
     } catch(Exception e) {
-      Log.e(TAG, "Error registering plugin print_bluetooth_thermal, app.web.groons.print_bluetooth_thermal.PrintBluetoothThermalPlugin", e);
+      Log.e(TAG, "Error registering plugin custom_printer_ble, kg.ronin.app.custom_printer_ble.CustomPrinterBlePlugin", e);
     }
   }
 }

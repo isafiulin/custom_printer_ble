@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface PrintBluetoothThermalPlugin : NSObject<FlutterPlugin>
+@interface CustomPrinterBlePlugin : NSObject<FlutterPlugin>
 @end
