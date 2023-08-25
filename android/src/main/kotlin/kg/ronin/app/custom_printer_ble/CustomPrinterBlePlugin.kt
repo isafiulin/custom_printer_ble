@@ -40,8 +40,8 @@ private var outputStream: OutputStream? = null
 private lateinit var mac: String
 //val REQUEST_ENABLE_BT = 2
 
-/** PrintCustomPrinterBlePlugin */
-class PrintCustomPrinterBlePlugin: FlutterPlugin, MethodCallHandler{
+/** CustomPrinterBlePlugin */
+class CustomPrinterBlePlugin: FlutterPlugin, MethodCallHandler{
   /// The MethodChannel that will the communication between Flutter and native Android
   ///
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
